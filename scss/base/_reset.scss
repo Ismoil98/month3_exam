@@ -1,14 +1,21 @@
-@font-face {
-  font-family: 'Poppins';
-  src: url(/fonts/Poppins/Poppins-Regular.ttf);
+@font-face { 
+  font-family: 'Montserrat';
+  src: url('../../fonts/Montserrat-Regular.ttf');
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 a {
