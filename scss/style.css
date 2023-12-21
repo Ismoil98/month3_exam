@@ -38,6 +38,14 @@ button {
   border: none;
 }
 
+.dark {
+  background-color: black;
+}
+
+.dark * {
+  color: white !important;
+}
+
 .container {
   max-width: 1232px;
   margin-left: auto;
@@ -117,7 +125,7 @@ button {
   padding: 8px 32px;
   border: 1px solid #1c3554;
   border-radius: 8px;
-  margin-left: 16px;
+  margin-right: 16px;
   transition: all 0.3s ease;
 }
 .header .navbar .nav_btn:hover {
@@ -581,7 +589,7 @@ button {
   .mentor img {
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 360px;
     height: auto;
   }
 }

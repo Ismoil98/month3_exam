@@ -41,3 +41,12 @@ ul {
 button {
   border: none;
 }
+
+.dark  {
+  background-color: black;
+ }
+ 
+ .dark * {
+   color: white !important;
+   
+ }
