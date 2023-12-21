@@ -110,10 +110,6 @@ button {
   margin-right: 40px;
 }
 
-.header {
-  margin-top: 36px;
-  margin-bottom: 36px;
-}
 .header .navbar .forma {
   margin-left: 24px;
   max-width: 400px !important;
@@ -210,6 +206,9 @@ button {
   .home .hiro .hiro_content .form input {
     width: 50px !important;
   }
+}
+.home {
+  padding-top: 70px;
 }
 .home .trending {
   text-align: center;

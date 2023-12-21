@@ -9,12 +9,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik&display=swap" rel="stylesheet"> -->
   <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./scss/style.css">
 </head>
 <body>
   
-  <header class="header container">
-    <nav class="navbar navbar-expand-lg">
+  <header class="header w-100 position-fixed z-2 bg-white">
+    <nav class="navbar navbar-expand-lg container">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="./img/home/logo_site.jpg" alt="">
@@ -29,6 +31,11 @@
           </form>
 
           <ul class="navbar-nav me-auto align-items-center mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/courses.html">
+                Home
+              </a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="./pages/courses.html">
                 Courses
@@ -117,6 +124,9 @@
 
       <div class="hiro_imges">
         <img src="./img/home/hiro_img.png" alt="">
+        <!-- <img class="hiro_imges-icon1" src="./img/home/icons/hiro_icon1.png" alt="">
+        <img class="hiro_imges-icon2" src="./img/home/icons/hiro_icon2.png" alt="">
+        <img class="hiro_imges-icon3" src="./img/home/icons/hiro_icon3.png" alt=""> -->
       </div>
      </div>
     </section>
@@ -555,17 +565,17 @@
           <h3 class="type_title">
             About
           </h3>
-          <a href="#">
-            About us
-          </a>
-          <a href="#">
+          <a href="./pages/courses.html">
             Courses
           </a>
-          <a href="#">
-            Mentor
+          <a href="./pages/detail.html">
+            Details
           </a>
-          <a href="#">
-            Contact Us
+          <a href="./pages/blog.html">
+            Blog
+          </a>
+          <a href="./pages/account.html">
+            Account
           </a>
         </div>
 
@@ -624,5 +634,25 @@
     document.body.classList.toggle("dark");
     });
  </script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script>
+       $('.owl-carousel').owlCarousel({
+         loop: true,
+         margin: 10,
+         nav: true,
+         responsive: {
+           0: {
+             items: 1,
+           },
+           600: {
+             items: 3,
+           },
+           1000: {
+             items: 5,
+           },
+         },
+       });
+     </script>
 </body>
 </html>
