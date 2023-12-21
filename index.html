@@ -8,11 +8,57 @@
   <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="./scss/style.css">
 </head>
 <body>
-   
+  
   <header class="header container">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./img/home/logo_site.jpg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+          <form class="my-3" role="search">
+            <input class="forma form-control me-2" type="search" placeholder="Search bar" aria-label="Search">
+          </form>
+
+          <ul class="navbar-nav me-auto align-items-center mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./pages/courses.html">
+                Courses
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./pages/detail.html">
+                Detail
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/blog.html">
+                Blog
+              </a>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-center">
+            <a class="nav_btn" href="./pages/account.html" type="link">
+              Login
+            </a>
+            <a class="nav_btn" href="./pages/account.html" type="link">
+              SignUp
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- <header class="header container">
     <a href="./index.html">
       <img src="./img/home/logo_site.jpg" alt="logo site">
     </a>
@@ -37,30 +83,525 @@
         Sign Up
       </button>
     </nav>
-  </header>
+  </header> -->
 
-  <main class="main">
+  <main class="home">
     <section class="hiro">
+     <div class="container">
+      <div class="hiro_content">
+        <h2 class="hiro_title">
+          Find the Best Courses and Amazing Mentor
+        </h2>
+        <p class="hiro_text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus 
+        </p>
+        <form class="form" action="">
+          <input placeholder="Type in the course you want to learn" type="text">
+          <button>Search</button>
+        </form>
+      </div>
+
+      <div class="hiro_imges">
+        <img src="./img/home/hiro_img.png" alt="">
+      </div>
+     </div>
     </section>
+
+    <section class="trending container">
+      <h2 class="tranding_title">
+        Trending Courses
+      </h2>
+      <ul class="tranding_list">
+        <li class="tranding_item">
+          <a class="tranding_link" href="#">
+            All
+          </a>
+        </li>
+        <li class="tranding_item">
+          <a class="tranding_link" href="#">
+            Business
+          </a>
+        </li>
+        <li class="tranding_item">
+          <a class="tranding_link" href="#">
+            Art & Design
+          </a>
+        </li>
+        <li class="tranding_item">
+          <a class="tranding_link" href="#">
+            Development
+          </a>
+        </li>
+        <li class="tranding_item">
+          <a class="tranding_link" href="#">
+            Marketing
+          </a>
+        </li>
+      </ul>
+
+      <ul class="cards">
+        <li class="cards_item">
+          <img src="./img/home/trending_img.png" alt=" img">
+          <button>
+            UI/UX Design
+          </button>
+          <h3>
+            Interpersonal skills - work better with others!
+          </h3>
+          <h4>
+            Tanah Air Team
+          </h4>
+          <p>
+            (2078)
+          </p>
+          <div>
+            <del>
+              $640
+            </del>
+            $384
+          </div>
+        </li>
+        <li class="cards_item">
+          <img src="./img/home/trending_img.png" alt=" img">
+          <button>
+            UI/UX Design
+          </button>
+          <h3>
+            Interpersonal skills - work better with others!
+          </h3>
+          <h4>
+            Tanah Air Team
+          </h4>
+          <p>
+            (2078)
+          </p>
+          <div>
+            <del>
+              $640
+            </del>
+            $384
+          </div>
+        </li>
+        <li class="cards_item">
+          <img src="./img/home/trending_img.png" alt=" img">
+          <button>
+            UI/UX Design
+          </button>
+          <h3>
+            Interpersonal skills - work better with others!
+          </h3>
+          <h4>
+            Tanah Air Team
+          </h4>
+          <p>
+            (2078)
+          </p>
+          <div>
+            <del>
+              $640
+            </del>
+            $384
+          </div>
+        </li>
+        <li class="cards_item">
+          <img src="./img/home/trending_img.png" alt=" img">
+          <button>
+            UI/UX Design
+          </button>
+          <h3>
+            Interpersonal skills - work better with others!
+          </h3>
+          <h4>
+            Tanah Air Team
+          </h4>
+          <p>
+            (2078)
+          </p>
+          <div>
+            <del>
+              $640
+            </del>
+            $384
+          </div>
+        </li>
+        <li class="cards_item">
+          <img src="./img/home/trending_img.png" alt=" img">
+          <button>
+            UI/UX Design
+          </button>
+          <h3>
+            Interpersonal skills - work better with others!
+          </h3>
+          <h4>
+            Tanah Air Team
+          </h4>
+          <p>
+            (2078)
+          </p>
+          <div>
+            <del>
+              $640
+            </del>
+            $384
+          </div>
+        </li>
+        <li class="cards_item">
+          <img src="./img/home/trending_img.png" alt=" img">
+          <button>
+            UI/UX Design
+          </button>
+          <h3>
+            Interpersonal skills - work better with others!
+          </h3>
+          <h4>
+            Tanah Air Team
+          </h4>
+          <p>
+            (2078)
+          </p>
+          <div>
+            <del>
+              $640
+            </del>
+            $384
+          </div>
+        </li>
+        <li class="cards_item">
+          <img src="./img/home/trending_img.png" alt=" img">
+          <button>
+            UI/UX Design
+          </button>
+          <h3>
+            Interpersonal skills - work better with others!
+          </h3>
+          <h4>
+            Tanah Air Team
+          </h4>
+          <p>
+            (2078)
+          </p>
+          <div>
+            <del>
+              $640
+            </del>
+            $384
+          </div>
+        </li>
+        <li class="cards_item">
+          <img src="./img/home/trending_img.png" alt=" img">
+          <button>
+            UI/UX Design
+          </button>
+          <h3>
+            Interpersonal skills - work better with others!
+          </h3>
+          <h4>
+            Tanah Air Team
+          </h4>
+          <p>
+            (2078)
+          </p>
+          <div>
+            <del>
+              $640
+            </del>
+            $384
+          </div>
+        </li>
+
+      </ul>
+
+      <button class="trending_more">
+        More Courses
+      </button>
+    </section>
+
+    <section class="categories container">
+      <h2 class="categories_title"> 
+        Top Categories
+      </h2>
+
+      <ul class="cards">
+        <li class="cards_item">
+          <h3>
+            Art & Design
+          </h3>
+        </li>
+        <li class="cards_item">
+          <h3>
+            Business
+          </h3>
+        </li>
+        <li class="cards_item">
+          <h3>
+            Copy Writing
+          </h3>
+        </li>
+        <li class="cards_item">
+          <h3>
+            Marketing
+          </h3>
+        </li>
+        <li class="cards_item">
+          <h3>
+            Programming
+          </h3>
+        </li>
+        <li class="cards_item">
+          <h3>
+            Photography
+          </h3>
+        </li>
+        <li class="cards_item">
+          <h3>
+            Videography
+          </h3>
+        </li>
+        <li class="cards_item">
+          <h3>
+            Development
+          </h3>
+        </li>
+      </ul>
+    </section>
+
+    <section class="result container">
+      <ul class="result_card">
+        <li class="result_card-item">
+          <img src="./img/home/icons/video.png" alt="">
+          <p>
+            10.000+
+          </p>
+          <h4>
+            Courses
+          </h4>
+        </li>
+        <li class="result_card-item">
+          <img src="./img/home/icons/video.png" alt="">
+          <p>
+            50.000+
+          </p>
+          <h4>
+            Active Students
+          </h4>
+        </li>
+        <li class="result_card-item">
+          <img src="./img/home/icons/video.png" alt="">
+          <p>
+            1000+
+          </p>
+          <h4>
+            Active Mentor
+          </h4>
+        </li>
+        <li class="result_card-item">
+          <img src="./img/home/icons/video.png" alt="">
+          <p>
+            180
+          </p>
+          <h4>
+            Countries
+          </h4>
+        </li>
+
+      </ul>
+    </section>
+
+    <section class="mentor container">
+      <img src="./img/home/become_img.png" alt="mentor img">
+      <div>
+        <h2 class="mentor_title">
+          Become an Mentor
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eu in orci, nunc amet libero. Nam scelerisque vestibulum bibendum a turpis. Ante feugiat lectus massa, odio amet. Auctor sit mattis non id proin elit placerat. Lectus morbi amet et aliquam magna mauris.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eu in orci, nunc amet libero. Nam scelerisque vestibulum bibendum a turpis. Ante feugiat lectus massa, odio amet. Auctor sit mattis non id proin elit placerat. Lectus morbi amet et aliquam magna mauris.
+        </p>
+        <button>
+          Start Teaching
+        </button>
+      </div>
+    </section>
+
+    <section class="after container">
+      <img src="./img/home/after_img.png" alt="after img">
+      <div>
+        <p>
+          After studying here I gained new knowledge and insights. The mentor was very friendly and guided me to get the knowledge I wanted. Thank you!
+        </p>
+        <h3>
+          KecekArif
+        </h3>
+        <h4>
+          Yang punya Surabaya nanti kapan - kapan tapi
+        </h4>
+      </div>
+    </section>
+
+    <section class="trust container">
+      <h2>
+        Trusted by Company
+      </h2>
+      <div>
+        <img src="./img/home/03.png" alt="logo">
+        <img src="./img/home/01.png" alt="logo">
+        <img src="./img/home/02.png" alt="logo">
+        <img src="./img/home/03.png" alt="logo">
+        <img src="./img/home/02.png" alt="logo">
+        <img src="./img/home/01.png" alt="logo">
+      </div>
+    </section>
+
+    <section class="latest container">
+      <h2 class="latest_title">
+        The Latest Blog
+      </h2>
+
+      <ul class="latest_cards">
+        <li class="latest_item">
+          <img src="./img/home/latest_img.png" alt="latest img">
+          <span>
+            <p>
+              3, Mei 2021
+            </p>
+            <p>
+              3 min read
+            </p>
+          </span>
+          <h3>
+            10 graphic design trends to get you inspired in 2021
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod.
+          </p>
+          <button class="latest_button">
+            Read More
+          </button>
+        </li>
+        <li class="latest_item">
+          <img src="./img/home/latest_img.png" alt="latest img">
+          <span>
+            <p>
+              3, Mei 2021
+            </p>
+            <p>
+              3 min read
+            </p>
+          </span>
+          <h3>
+            Right Triangle Trigonometry Explained
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod.
+          </p>
+          <button class="latest_button">
+            Read More
+          </button>
+        </li>
+        <li class="latest_item">
+          <img src="./img/home/latest_img.png" alt="latest img">
+          <span>
+            <p>
+              3, Mei 2021
+            </p>
+            <p>
+              3 min read
+            </p>
+          </span>
+          <h3>
+            2 Reasons Why You’re Confusing Chemistry 
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod.
+          </p>
+          <button class="latest_button">
+            Read More
+          </button>
+        </li>
+      </ul>
+    </section>
+
   </main>
 
   <footer class="footer">
     <div class="container">
       <div class="footer_content">
-        <div>
+        <div class="logos">
           <a href="./index.html">
             <img src="./img/home/logo_footer.png" alt="site logo">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet tristique placerat eleifend aliquam pellentesque facilisis ultrices. Imperdiet mus urna egestas at tellus. 
-            </p>
+          </a>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet tristique placerat eleifend aliquam pellentesque facilisis ultrices. Imperdiet mus urna egestas at tellus. 
+          </p>
+        </div>
+
+        <div class="type">
+          <h3 class="type_title">
+            About
+          </h3>
+          <a href="#">
+            About us
+          </a>
+          <a href="#">
+            Courses
+          </a>
+          <a href="#">
+            Mentor
+          </a>
+          <a href="#">
+            Contact Us
+          </a>
+        </div>
+
+        <div class="type">
+          <h3 class="type_title">
+            Support
+          </h3>
+          <a href="#">
+            Careers
+          </a>
+          <a href="#">
+            Help & Support
+          </a>
+          <a href="#">
+            Blog
+          </a>
+        </div>
+
+        <div class="type">
+          <h3 class="type_title">
+            Company
+          </h3>
+          <a href="#">
+            Privacy Policy
+          </a>
+          <a href="#">
+            Terms of Service
+          </a>
+          <a href="#">
+            Code of Conduct
           </a>
         </div>
       </div>
-      <div class="footer_info">
 
+      <div class="footer_info">
+        <div>
+          <a href="#">
+            Privacy Policy
+          </a>
+          <a href="#">
+            Terms and Condition
+          </a>
+        </div>
+        <p>
+          @2020 TanahAir Studio. All rights reserved.
+        </p>
       </div>
     </div>
   </footer>
 
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

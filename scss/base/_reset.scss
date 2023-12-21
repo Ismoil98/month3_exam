@@ -1,8 +1,17 @@
+@use '../abstracts/colors' as *;
+
 @font-face { 
   font-family: 'Montserrat';
   src: url('../../fonts/Montserrat-Regular.ttf');
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
+}
+
+@font-face { 
+  font-family: 'Rubik';
+  src: url('../../fonts/Rubik-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
 }
 
 * {
@@ -16,6 +25,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  color: $color-first;
 }
 
 a {
@@ -24,5 +34,10 @@ a {
 }
 
 ul {
+  padding: 0;
   list-style-type: none;
+}
+
+button {
+  border: none;
 }

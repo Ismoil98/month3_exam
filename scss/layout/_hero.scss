@@ -1,1 +1,109 @@
 @use '../abstracts' as *;
+
+.home {
+   .hiro {
+      background-image: url(../../img/home/hiro_background.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 0 0;
+      padding-top: 65px;
+      padding-left: 64px;
+      padding-right: 64px;
+      .container {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         flex-wrap: wrap;
+         gap: 5px;
+         .hiro_content {
+            .hiro_title {
+               max-width: 610px;
+               margin-bottom: 0;
+               color: $color-second;
+               font-family: Rubik;
+               font-size: 64px;
+               font-weight: 700;
+               line-height: 88px;
+            }
+            .hiro_text {
+               max-width: 647px;
+               margin-top: 24px;
+               margin-bottom: 66px;
+               color: $color-second;
+            }
+            .form {
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               border-radius: 8px;
+               background-color: $color-second;
+               padding: 12px 16px;
+               input {
+                  border: none;
+                  width: 290px;
+                  margin-left: 16px;
+                  font-size: 16px;
+                  color: $color-six;
+               }
+               button {
+                  padding: 12px 32px;
+                  border-radius: 8px;
+                  background-color: $color-three;
+                  color: $color-second;
+                  border: none;
+               }
+            }
+            .hiro_imges {
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width: 1340px) {
+   .home {
+      .hiro {
+         .hiro_imges {
+            margin-top: 50px;
+         }
+      }
+   }
+ }
+
+ @media only screen and (max-width: 660px) {
+   .home {
+      .hiro {
+         padding-left: 10px;
+         padding-right: 10px;
+         .hiro_content {
+            .hiro_title {
+               font-size: 36px !important;
+               line-height: 48px !important;
+            }
+            .hiro_text {
+
+            }
+         }
+         .hiro_imges {
+            img {
+               width: 80%;
+               height: auto;
+            }
+         }
+      }
+   }
+ }
+
+ @media only screen and (max-width: 520px) {
+   .home {
+      .hiro {
+         .hiro_content {
+            .form {
+               input {
+                  width: 50px !important;
+               }
+            }
+         }
+      }
+   }
+ }

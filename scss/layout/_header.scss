@@ -4,56 +4,19 @@
 .header {
    margin-top: 36px;
    margin-bottom: 36px;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   a {
-      img {
-
-      }
-   }
-   form {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      input {
-         padding: 12px 252px 12px 16px;
-         color: $color-six;
-         font-size: 14px;
-         line-height: 24px;
-         border-radius: 8px;
-         border: 1px solid $color-seven;
-      }
-      select {
-         margin-left: 40px;
-         border: none;
-         option {
-            color: $color-first;
-            font-weight: 700;
-            line-height: 32px;
-         }
-      }
-   }
-   nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      a {
+   .navbar {
+      .forma {
          margin-left: 24px;
-         margin-right: 8px;
-         line-height: 32px;
-         color: $color-first;
-         transition: color 0.3s ease;
-         &:hover {
-            color: $color-three;
-         }
+         max-width: 400px !important;
       }
-      button {
-         margin-left: 16px;
+      .navbar-nav {
+         margin-left: 140px;
+      }
+      .nav_btn {
          padding: 8px 32px;
-         line-height: 32px;
-         border-radius: 8px;
          border: 1px solid $color-first;
+         border-radius: 8px;
+         margin-left: 16px;
          transition: all 0.3s ease;
          &:hover {
             color: $color-second;
@@ -62,4 +25,6 @@
          }
       }
    }
-}
+  }
+
+  
