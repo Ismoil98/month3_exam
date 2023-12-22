@@ -1,0 +1,120 @@
+@use '../abstracts' as *;
+
+.courses {
+   padding-top: 70px;
+   .prog {
+      padding-bottom: 56px;
+      div {
+         width: 250px;
+         margin-bottom: 24px;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         .activen {
+            font-weight: 700;
+            line-height: 32px;
+         }        
+      }
+      .courses_title {
+         margin-bottom: 24px;
+         font-family: Rubik;
+         font-size: 64px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: 88px;
+         }
+      .courses-text {
+         max-width: 712px;
+         color: $color-six;
+         font-weight: 400;
+         line-height: 27px;
+      } 
+   }
+   .carousel {
+      padding-bottom: 160px;
+      .carousel_title {
+         font-family: Rubik;
+         font-size: 32px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: 48px;
+      }
+      .owl-carousel {
+         .item {
+            padding: 5px;
+            width: 295px;
+            text-align: left;
+            border-radius: 8px;
+            padding: 16px;
+            position: relative;
+            transition: all 0.3s ease;
+            &:hover {
+               box-shadow: 10px 10px 5px $color-seven;
+            }
+            img {
+               width: 263px;
+               height: auto;
+               margin-bottom: 27px;
+            }
+            button {
+               position: absolute;
+               top: 203px;
+               left: 72px;
+               padding: 4px 24px;
+               color: $color-second;
+               border-radius: 8px;
+               background-color: $color-five;
+               border: none;
+            }
+            h3 {
+               color: $color-first;
+               font-family: Rubik;
+               font-size: 16px;
+               font-style: normal;
+               font-weight: 500;
+               line-height: 24px;
+               text-transform: capitalize;
+            }
+            h4 {
+               color: $color-three;
+               font-family: Montserrat;
+               font-size: 12px;
+               font-weight: 400;
+               line-height: 24px;
+            }
+            p {
+               display: flex;
+               align-items: center;
+               font-size: 14px;
+               font-style: normal;
+               font-weight: 400;
+               line-height: 24px;
+               color: $color-six;
+               &::before {
+                  content: url('../../img/home/stars.png');
+                  display: inline-block;
+                  width: 152px;
+                  height: 24px;
+                  margin-right: 5px;
+               }
+            }
+            div {
+               color: $color-first;
+               font-family: Rubik;
+               font-size: 24px;
+               font-style: normal;
+               font-weight: 500;
+               line-height: 32px;
+               del {
+                  margin-right: 8px;
+                  color: $color-seven;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 27px;
+               }
+            }
+         }
+      }
+   }
+}
